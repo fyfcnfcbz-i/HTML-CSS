@@ -41,9 +41,17 @@ img {
 .hed{
     margin-top: 40px;
     margin-bottom: 84px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navigation{}
+.navigation{
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+}
 
 .navigation a {
     font-family: Gilroy-Semibold;
@@ -60,15 +68,19 @@ img {
     margin-bottom: 162px;
 }
 
-.mainContent{}
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+}
 
-.mainContent__leftSide{}
+.mainContent__leftSide{
+    max-width: 522px;
+}
 
 .mainContent__leftSide h1{
     font-family: Gilroy-Bold;
     font-weight: 400;
     font-size: 60px;
-    /* color: #000; */
     margin-bottom: 17px;
 }
 
@@ -78,13 +90,15 @@ img {
     font-size: 20px;
     color: #888;
     margin-bottom: 37px;
+    max-width: 466px;
 }
 
-
-.mainContent__leftSide-btnList{}
-
-
-.mainContent__leftSide-btnList{}
+.mainContent__leftSide-btnList{
+    display: flex;
+    align-items: center;
+    width: 302px;
+    justify-content: space-between;
+}
 
 .mainContent__leftSide-btnList button{
     padding: 15px 35px;
@@ -116,4 +130,7 @@ img {
     padding: 97px 0;
 }
 
-.logos{}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
