@@ -65,12 +65,12 @@ img {
 }
 
 .main{
-    margin-bottom: 162px;
 }
 
 .mainContent{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 162px;
 }
 
 .mainContent__leftSide{
@@ -126,11 +126,23 @@ img {
 
 }
 
-.footer{
-    padding: 97px 0;
-}
-
 .logos{
+    padding: 97px 0;
     display: flex;
     justify-content: space-between;
+}
+
+.cardList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* .cardList:first-child{
+    
+} */
+
+.card{
+    padding: 40px 30px 25px;
 }
